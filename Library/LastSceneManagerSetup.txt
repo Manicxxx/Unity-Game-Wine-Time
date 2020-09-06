@@ -1,0 +1,5 @@
+sceneSetups:
+- path: C:/Users/milan/Downloads/unity-escape-room/escape-room/Assets/Scenes/Player_Scene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
