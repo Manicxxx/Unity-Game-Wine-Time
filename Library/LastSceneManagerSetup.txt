@@ -1,5 +1,5 @@
 sceneSetups:
-- path: C:/Users/milan/Downloads/unity-escape-room/escape-room/Assets/Scenes/Player_Scene.unity
+- path: Assets/Scenes/Collision Scene 2.0.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
