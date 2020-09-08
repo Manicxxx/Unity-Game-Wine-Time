@@ -39,6 +39,20 @@ public class SmoothCamera : MonoBehaviour
         
         transform.position = target.position - transform.forward * distanceFromTarget;
         
+        // Switch between FPS and TPS
+        var d = Input.GetAxis("Mouse ScrollWheel");
+        if (d > 0f) {
+            if (distanceFromTarget > 0) {
+                distanceFromTarget = distanceFromTarget - 1f;
+            }
+        }
+        else if (d < 0f) {
+            if (distanceFromTarget < 3f) {
+                distanceFromTarget = distanceFromTarget + 1f;
+            }
+        }
+        
+        /*
         if(Input.GetButtonDown("Camera"))
         {
             if (distanceFromTarget == 3f) {
@@ -50,5 +64,6 @@ public class SmoothCamera : MonoBehaviour
                 distanceFromTarget = 3f;
             }
         }
+        */
     }
 }
