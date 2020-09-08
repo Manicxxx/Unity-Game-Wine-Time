@@ -13,7 +13,7 @@ public class SmoothCamera : MonoBehaviour
     private Vector3 currentRotation;
 
     public Transform target;
-    public float distanceFromTarget = 2;
+    private float distanceFromTarget = 3f;
     
     public Vector2 pitchMinMax = new Vector2(-40,85);
 
@@ -22,7 +22,7 @@ public class SmoothCamera : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
-    
+
     void LateUpdate()
     {
         // Mouse Input
@@ -38,10 +38,17 @@ public class SmoothCamera : MonoBehaviour
         transform.eulerAngles = currentRotation;
         
         transform.position = target.position - transform.forward * distanceFromTarget;
-
-        if (distanceFromTarget == 3)
+        
+        if(Input.GetButtonDown("Camera"))
         {
-            
+            if (distanceFromTarget == 3f) {
+                distanceFromTarget = 0;
+                
+            }
+            else if (distanceFromTarget == 0)
+            {
+                distanceFromTarget = 3f;
+            }
         }
     }
 }
