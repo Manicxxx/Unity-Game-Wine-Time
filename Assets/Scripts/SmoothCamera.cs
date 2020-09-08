@@ -38,5 +38,10 @@ public class SmoothCamera : MonoBehaviour
         transform.eulerAngles = currentRotation;
         
         transform.position = target.position - transform.forward * distanceFromTarget;
+
+        if (distanceFromTarget == 3)
+        {
+            
+        }
     }
 }

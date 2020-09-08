@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraChange.cs" />
      <Compile Include="Assets\Scripts\CameraCollision.cs" />
      <Compile Include="Assets\Scripts\CourseNotes.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
