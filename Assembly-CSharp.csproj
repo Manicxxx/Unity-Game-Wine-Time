@@ -58,6 +58,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
+     <Compile Include="Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\CTI_Utils.cs" />
+     <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
      <Compile Include="Assets\Scripts\CameraChange.cs" />
      <Compile Include="Assets\Scripts\CameraCollision.cs" />
      <Compile Include="Assets\Scripts\CourseNotes.cs" />
@@ -65,7 +68,22 @@
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\RotateItem.cs" />
      <Compile Include="Assets\Scripts\SmoothCamera.cs" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
+     <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM2.shader" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
+     <None Include="Assets\Conifers [BOTD]\Getting started.txt" />
+     <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM3.shader" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex_301.cginc" />
+     <None Include="Assets\Rocks and Boulders 2\Shaders\shader info.txt" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting_301.cginc" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Bark_301.shader" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_indirect.cginc" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Leaves_301.shader" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/ooeze/Documents/Uni/CogSci/4. Semester/Unity/Finale/unity-project-escape-room/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
