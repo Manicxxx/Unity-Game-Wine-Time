@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     public float runSpeed = 2f;
     public float gravity = -12f;
     public float jumpHeight = 2f;
-    public float airControlPercent = 0.9f;
+    public float airControlPercent = 1f;
 
     public float turnSmoothTime = 0.2f;
     private float turnSmoothVelocity;
@@ -95,10 +95,6 @@ public class Player : MonoBehaviour
     // change SmoothTime when in the air
     float GetModifiedSmoothTime(float smoothTime)
     {
-        //if (controller.isGrounded)
-        //{
-            return smoothTime;
-        //}
-        //return smoothTime / airControlPercent;
+        return smoothTime;
     }
 }

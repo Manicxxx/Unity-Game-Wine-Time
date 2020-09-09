@@ -15,7 +15,7 @@ public class SmoothCamera : MonoBehaviour
     public Transform target;
     private float distanceFromTarget = 3f;
     
-    public Vector2 pitchMinMax = new Vector2(-40,85);
+    public Vector2 pitchMinMax = new Vector2(-25,85);
 
     void Start()
     {
@@ -51,19 +51,15 @@ public class SmoothCamera : MonoBehaviour
                 distanceFromTarget = distanceFromTarget + 1f;
             }
         }
-        
-        /*
-        if(Input.GetButtonDown("Camera"))
-        {
-            if (distanceFromTarget == 3f) {
-                distanceFromTarget = 0;
-                
+
+        if (Input.GetButtonDown("Camera")) {
+            if (distanceFromTarget > 0) {
+                distanceFromTarget = distanceFromTarget - 1;
             }
             else if (distanceFromTarget == 0)
             {
-                distanceFromTarget = 3f;
+                distanceFromTarget = 3;
             }
         }
-        */
     }
 }
