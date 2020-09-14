@@ -73,6 +73,7 @@
      <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
      <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM2.shader" />
      <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
+     <None Include="Assets\Environment\Contractors\RuinedCar\Shaders\Normal-BumpSpec.shader" />
      <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
      <None Include="Assets\Conifers [BOTD]\Getting started.txt" />
      <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM3.shader" />
