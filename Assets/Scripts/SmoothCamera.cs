@@ -13,7 +13,7 @@ public class SmoothCamera : MonoBehaviour
     private Vector3 currentRotation;
 
     public Transform target;
-    private float distanceFromTarget = 3f;
+    public float distanceFromTarget = 0f;
     
     public Vector2 pitchMinMax = new Vector2(-25,85);
 

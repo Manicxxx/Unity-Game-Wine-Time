@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
 
     private Animator animator;
     private Transform cameraT;
+    private Camera fpsCam;
 
     private CharacterController controller;
     
@@ -29,6 +30,8 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         cameraT = Camera.main.transform;
         controller = GetComponent<CharacterController>();
+        
+        fpsCam = Camera.main;
     }
 
     void Update()
@@ -36,6 +39,8 @@ public class Player : MonoBehaviour
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         Vector2 inputDir = input.normalized;
         bool running = Input.GetKey(KeyCode.LeftShift);
+        
+        Vector3 rayOrigin = fpsCam.ViewportToWorldPoint(new Vector3(0.5f,0.5f,0f));
 
         Move(inputDir, running);
         
