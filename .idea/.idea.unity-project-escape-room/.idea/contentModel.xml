@@ -33,6 +33,7 @@
           <e p="RotateItem.cs" t="Include" />
           <e p="SmoothCamera.cs" t="Include" />
           <e p="SoundManagerScript.cs" t="Include" />
+          <e p="Throw.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
