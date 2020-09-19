@@ -9,10 +9,9 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="FurnishedCabin" t="Include">
+        <e p="Pickup" t="Include">
           <e p="Scripts" t="Include">
-            <e p="MoveableObject.cs" t="Include" />
-            <e p="MoveObjectController.cs" t="Include" />
+            <e p="RotateCamera.cs" t="Include" />
           </e>
         </e>
         <e p="Samples" t="Include">
@@ -28,10 +27,12 @@
           <e p="CameraChange.cs" t="Include" />
           <e p="CameraCollision.cs" t="Include" />
           <e p="CourseNotes.cs" t="Include" />
+          <e p="DrinkWine.cs" t="Include" />
           <e p="PickupObject.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="RotateItem.cs" t="Include" />
           <e p="SmoothCamera.cs" t="Include" />
+          <e p="SoundManagerScript.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
@@ -339,6 +340,39 @@
                     <e p="Normal-BumpSpec.shader" t="Include" />
                   </e>
                 </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Wine" t="Include">
+          <e p="Bar &amp; Liquor Cabinets" t="Include">
+            <e p="Message For You Please Read Me.txt" t="Include" />
+            <e p="Scripts &amp; Animation" t="Include">
+              <e p="TableFlipL.cs" t="Include" />
+              <e p="TableFlipR.cs" t="Include" />
+            </e>
+          </e>
+          <e p="SE Basic Assets" t="Include">
+            <e p="Scripts and Animations" t="Include">
+              <e p="Doors" t="Include">
+                <e p="opencloseDoor.cs" t="Include" />
+                <e p="opencloseDoor1.cs" t="Include" />
+              </e>
+              <e p="Drawer" t="Include">
+                <e p="X Axis" t="Include">
+                  <e p="Drawer_Pull_X.cs" t="Include" />
+                </e>
+                <e p="Z Axis" t="Include">
+                  <e p="Drawer_Pull_Z.cs" t="Include" />
+                </e>
+              </e>
+              <e p="First Person Player" t="Include">
+                <e p="MouseLook.cs" t="Include" />
+                <e p="PlayerMovement.cs" t="Include" />
+              </e>
+              <e p="Windows" t="Include">
+                <e p="opencloseWindow.cs" t="Include" />
+                <e p="opencloseWindow1.cs" t="Include" />
               </e>
             </e>
           </e>

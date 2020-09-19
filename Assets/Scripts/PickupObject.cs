@@ -12,6 +12,7 @@ public class PickupObject : MonoBehaviour
         GetComponent<Rigidbody>().useGravity = false;
         this.transform.position = theDest.position;
         this.transform.parent = GameObject.Find("PickupDestination").transform;
+        SoundManagerScript.PlaySound("pickup");
     }
 
     void OnMouseUp()
@@ -19,5 +20,6 @@ public class PickupObject : MonoBehaviour
         //GetComponent<BoxCollider>().enabled = true;
         this.transform.parent = null;
         GetComponent<Rigidbody>().useGravity = true;
+        SoundManagerScript.PlaySound("drop");
     }
 }
