@@ -22,4 +22,25 @@ public class PickupObject : MonoBehaviour
         GetComponent<Rigidbody>().useGravity = true;
         SoundManagerScript.PlaySound("drop");
     }
+    /*
+    
+    bool colliding;
+ 
+    private void OnTriggerEnter(Collider other) {
+        colliding = true;
+    }
+    private void OnTriggerExit(Collider other) {
+        colliding = false;
+    }
+ 
+    private void Update() {
+        if(colliding) {
+            GetComponent<Rigidbody>().useGravity = false;
+            this.transform.position = theDest.position;
+            this.transform.parent = GameObject.Find("PickupDestination").transform;
+            SoundManagerScript.PlaySound("pickup");
+        }
+    }
+    */
+    
 }
