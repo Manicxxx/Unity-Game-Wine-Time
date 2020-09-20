@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2BE6CEA7-DDAA-9234-6651-9A2220ACC2B8}</ProjectGuid>
+    <ProjectGuid>{90B19A5E-5C12-727D-0EC5-A1F13F28D49C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -62,73 +62,73 @@
      <Compile Include="Assets\Terrain Stuff\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
      <Compile Include="Assets\Terrain Stuff\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Monetization">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Editor">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-weaver.Editor">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -317,22 +317,25 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/milan/Downloads/unity-project-escape-room/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/milan/Downloads/unity-project-escape-room - Kopie/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -691,15 +694,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{B5EAAF5C-8CF9-6334-CF34-BAF325FDEFA7}</Project>
+      <Project>{3F73484C-FBD4-E659-B136-CB2B26CDFE06}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{D0A27035-C5D1-CB31-BC4C-672F6B5C0949}</Project>
+      <Project>{43C66A5B-67F7-8009-FDA6-B2E4AD4EA6FC}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{8BFD9582-2522-144A-29AC-65D96813D420}</Project>
+      <Project>{F3470562-5AC6-7983-EDEB-7C55594DD168}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
