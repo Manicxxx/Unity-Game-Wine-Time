@@ -31,6 +31,7 @@
           <e p="DrinkWine.cs" t="Include" />
           <e p="PickupObject.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="ProgressBar.cs" t="Include" />
           <e p="RotateItem.cs" t="Include" />
           <e p="SmoothCamera.cs" t="Include" />
           <e p="SoundManagerScript.cs" t="Include" />
