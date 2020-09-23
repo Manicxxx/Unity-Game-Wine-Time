@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     private Camera fpsCam;
 
     private CharacterController controller;
-    
+
     void Start()
     {
         animator = GetComponent<Animator>();
