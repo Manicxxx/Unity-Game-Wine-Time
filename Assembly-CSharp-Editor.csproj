@@ -58,9 +58,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Terrain Stuff\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
-     <Compile Include="Assets\Terrain Stuff\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
-     <Compile Include="Assets\Terrain Stuff\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
+     <Compile Include="Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
+     <Compile Include="Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
+     <Compile Include="Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>C:/Users/ooeze/Documents/Uni/CogSci/4. Semester/Unity/Projects/final/unity-project-escape-room/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>

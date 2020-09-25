@@ -58,6 +58,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
+     <Compile Include="Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\CTI_Utils.cs" />
      <Compile Include="Assets\Pickup\Scripts\RotateCamera.cs" />
      <Compile Include="Assets\Scripts\CameraChange.cs" />
      <Compile Include="Assets\Scripts\CameraCollision.cs" />
@@ -116,27 +118,39 @@
      <Compile Include="Assets\Wine\SE Basic Assets\Scripts and Animations\First Person Player\PlayerMovement.cs" />
      <Compile Include="Assets\Wine\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow.cs" />
      <Compile Include="Assets\Wine\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow1.cs" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
      <None Include="Assets\Terrain Stuff\Rocks and Boulders 2\Shaders\Blend SM2.shader" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\Terrain Stuff\Tree_Textures\Environment\Contractors\RuinedCar\Shaders\Normal-BumpSpec.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Conifers [BOTD]\Getting started.txt" />
      <None Include="Assets\Winston\Document\readme.txt" />
      <None Include="Assets\Terrain Stuff\Rocks and Boulders 2\Shaders\Blend SM3.shader" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex_301.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\Terrain Stuff\Rocks and Boulders 2\Shaders\shader info.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting_301.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Bark_301.shader" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_indirect.cginc" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Leaves_301.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
