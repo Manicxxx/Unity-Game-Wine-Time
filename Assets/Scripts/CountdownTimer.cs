@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class CountdownTimer : MonoBehaviour
 {
-  private float currentTime = 0f;
+  public float currentTime = 0f;
   private float startingTime = 0f;
   [SerializeField] private Text countdownText;
 
@@ -17,7 +17,14 @@ public class CountdownTimer : MonoBehaviour
 
   private void Update()
   {
-    currentTime += 1 * Time.deltaTime;
-    countdownText.text = currentTime.ToString("0") + "s";
+    if (GameObject.Find("Progress").GetComponent<Canvas>().enabled == true)
+    {
+      currentTime += 1 * Time.deltaTime;
+      countdownText.text = currentTime.ToString("0.0") + " s";
+    }
+    else if (GameObject.Find("Progress").GetComponent<Canvas>().enabled == false)
+    {
+      currentTime = currentTime;
+    }
   }
 }

@@ -9,6 +9,37 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Conifers [BOTD]" t="Include">
+          <e p="CTI Runtime Components" t="Include">
+            <e p="Resources" t="Include">
+              <e p="CTI_Camera-DepthNormalTexture_301.shader" t="Include" />
+              <e p="CTI_Internal-DeferredReflections.shader" t="Include" />
+              <e p="CTI_Internal-DeferredShading.shader" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="CTI_CustomWind.cs" t="Include" />
+              <e p="CTI_Utils.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="CTI_AdvancedEdgeFluttering.cs" t="Include" />
+                <e p="CTI_DetailsEnum.cs" t="Include" />
+                <e p="CTI_ShaderGUI.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="CTI_LOD_Bark_301.shader" t="Include" />
+              <e p="CTI_LOD_Bark_Array_301.shader" t="Include" />
+              <e p="CTI_LOD_Billboard_301.shader" t="Include" />
+              <e p="CTI_LOD_Leaves_301.shader" t="Include" />
+              <e p="Includes" t="Include">
+                <e p="CTI_BillboardVertex_301.cginc" t="Include" />
+                <e p="CTI_Builtin4xTreeLibraryTumbling_301.cginc" t="Include" />
+                <e p="CTI_indirect.cginc" t="Include" />
+                <e p="CTI_TranslucentLighting_301.cginc" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Getting started.txt" t="Include" />
+        </e>
         <e p="Pickup" t="Include">
           <e p="Scripts" t="Include">
             <e p="RotateCamera.cs" t="Include" />
@@ -29,6 +60,9 @@
           <e p="CountdownTimer.cs" t="Include" />
           <e p="CourseNotes.cs" t="Include" />
           <e p="DrinkWine.cs" t="Include" />
+          <e p="DrunkEffect.cs" t="Include" />
+          <e p="EndText.cs" t="Include" />
+          <e p="Fadeout.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="PickupObject.cs" t="Include" />
           <e p="Player.cs" t="Include" />
@@ -36,6 +70,8 @@
           <e p="RotateItem.cs" t="Include" />
           <e p="SmoothCamera.cs" t="Include" />
           <e p="SoundManagerScript.cs" t="Include" />
+          <e p="Taxi.cs" t="Include" />
+          <e p="TaxiText.cs" t="Include" />
           <e p="Throw.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
@@ -297,37 +333,6 @@
           </e>
         </e>
         <e p="Terrain Stuff" t="Include">
-          <e p="Conifers [BOTD]" t="Include">
-            <e p="CTI Runtime Components" t="Include">
-              <e p="Resources" t="Include">
-                <e p="CTI_Camera-DepthNormalTexture_301.shader" t="Include" />
-                <e p="CTI_Internal-DeferredReflections.shader" t="Include" />
-                <e p="CTI_Internal-DeferredShading.shader" t="Include" />
-              </e>
-              <e p="Scripts" t="Include">
-                <e p="CTI_CustomWind.cs" t="Include" />
-                <e p="CTI_Utils.cs" t="Include" />
-                <e p="Editor" t="Include">
-                  <e p="CTI_AdvancedEdgeFluttering.cs" t="Include" />
-                  <e p="CTI_DetailsEnum.cs" t="Include" />
-                  <e p="CTI_ShaderGUI.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Shaders" t="Include">
-                <e p="CTI_LOD_Bark_301.shader" t="Include" />
-                <e p="CTI_LOD_Bark_Array_301.shader" t="Include" />
-                <e p="CTI_LOD_Billboard_301.shader" t="Include" />
-                <e p="CTI_LOD_Leaves_301.shader" t="Include" />
-                <e p="Includes" t="Include">
-                  <e p="CTI_BillboardVertex_301.cginc" t="Include" />
-                  <e p="CTI_Builtin4xTreeLibraryTumbling_301.cginc" t="Include" />
-                  <e p="CTI_indirect.cginc" t="Include" />
-                  <e p="CTI_TranslucentLighting_301.cginc" t="Include" />
-                </e>
-              </e>
-            </e>
-            <e p="Getting started.txt" t="Include" />
-          </e>
           <e p="Rocks and Boulders 2" t="Include">
             <e p="Shaders" t="Include">
               <e p="Blend SM2.shader" t="Include" />
