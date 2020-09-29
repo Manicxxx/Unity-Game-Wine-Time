@@ -16,6 +16,9 @@ public class Taxi : MonoBehaviour
             SoundManagerScript.PlaySound("taxiHorn");
             number = 0;
             GameObject.Find("FinishText").GetComponent<Fadeout>().fadeNumber = 1;
+            SoundManagerScript.PlaySound("redRedWine");
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.Confined;
         }
     }
 }

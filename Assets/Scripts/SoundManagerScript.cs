@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour
 {
-    public static AudioClip drinking, pickup, drop, littlebitdrunk, glug, taxiHorn;
+    public static AudioClip drinking, pickup, drop, littlebitdrunk, glug, taxiHorn, redRedWine;
     private static AudioSource audioSrc;
     
     void Start()
@@ -15,6 +15,7 @@ public class SoundManagerScript : MonoBehaviour
         littlebitdrunk = Resources.Load<AudioClip>("LittleBitDrunk");
         glug = Resources.Load<AudioClip>("Glug");
         taxiHorn = Resources.Load<AudioClip>("TaxiHorn");
+        redRedWine = Resources.Load<AudioClip>("RedRedWine");
         
         audioSrc = GetComponent<AudioSource>();
     }
@@ -46,6 +47,9 @@ public class SoundManagerScript : MonoBehaviour
                 break; 
             case "taxiHorn":
                 audioSrc.PlayOneShot(taxiHorn);
+                break;
+            case "redRedWine":
+                audioSrc.PlayOneShot(redRedWine);
                 break;
         }
     }
