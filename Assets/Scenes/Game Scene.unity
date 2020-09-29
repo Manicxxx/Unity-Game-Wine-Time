@@ -15,16 +15,16 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.493414, g: 0.64201874, b: 0.8301887, a: 1}
+  m_FogColor: {r: 1, g: 1, b: 1, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.009
+  m_FogDensity: 0.013
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.2784314, g: 0.35686275, b: 0.34509805, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
@@ -2199,7 +2199,7 @@ GameObject:
   - component: {fileID: 499203481}
   - component: {fileID: 499203483}
   - component: {fileID: 499203482}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3372,7 +3372,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.9716981, g: 0.924154, b: 0.7700249, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3381,7 +3381,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.7
+    m_Strength: 0.9
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -3429,7 +3429,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 69, y: 105, z: 46}
+  m_LocalPosition: {x: 254.4, y: 105, z: 46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4645,7 +4645,7 @@ GameObject:
   - component: {fileID: 831620038}
   - component: {fileID: 831620039}
   - component: {fileID: 831620040}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Progressbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4813,7 +4813,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 855801726}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5045,7 +5045,7 @@ GameObject:
   - component: {fileID: 963194230}
   - component: {fileID: 963194231}
   - component: {fileID: 963194232}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -5248,7 +5248,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 963194228}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 1024
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
   antialiasingMode: 0
@@ -6419,6 +6419,54 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1730168615}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1132831479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1132831481}
+  - component: {fileID: 1132831480}
+  m_Layer: 10
+  m_Name: PostProcessingGo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1132831480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132831479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 1fc97c71460b7a44fab28273a7d5d2f3, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!4 &1132831481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132831479}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 68.87088, y: 13.58, z: 169.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1142469709
 GameObject:
   m_ObjectHideFlags: 0
@@ -6684,7 +6732,7 @@ GameObject:
   - component: {fileID: 1175967393}
   - component: {fileID: 1175967395}
   - component: {fileID: 1175967394}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7712,7 +7760,7 @@ GameObject:
   - component: {fileID: 1301976536}
   - component: {fileID: 1301976535}
   - component: {fileID: 1301976539}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Countdown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8586,7 +8634,7 @@ GameObject:
   - component: {fileID: 1362402860}
   - component: {fileID: 1362402859}
   - component: {fileID: 1362402858}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Progress
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9064,7 +9112,7 @@ GameObject:
   - component: {fileID: 1471470346}
   - component: {fileID: 1471470345}
   - component: {fileID: 1471470344}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: CountdownText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9147,7 +9195,7 @@ GameObject:
   - component: {fileID: 1486730778}
   - component: {fileID: 1486730780}
   - component: {fileID: 1486730779}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11222,7 +11270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2118759636}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
